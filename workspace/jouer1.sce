@@ -3,7 +3,7 @@ getd('../scripts/')
 
 //save
 imgPos='../images/'
-img=readpbm(imgPos + 'Earth.pbm');
+img=readpbm(imgPos + 'Mars_surface.pbm');
 
 //seuillage
 function r=seuillage(imgsrc,seuil)
