@@ -5,8 +5,6 @@ getd("../scripts");
 imgPos = "../images/";   //The position of the source images
 renderPos = "render/";   //The folder where the render images will be saved
 //Load image
-imgin = readpbm(imgPos+"Earth.pbm");
-//Assign a "seuillage" filter to the image
-imgout=seuillage(imgin,100);
-//Save new image
-writepbm(imgout,renderPos+"testBaptiste.pbm");
+imgin = readpbm(imgPos+"Encelade_surface.pbm");
+//Show the coordinates of the brightest color of the image loaded
+disp(colorCoordinates(imgin,max(imgin)))

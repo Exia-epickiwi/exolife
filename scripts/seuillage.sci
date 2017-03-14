@@ -11,14 +11,14 @@ function render=seuillage(imgsrc,seuil)
         //For each colum of the image (each pixel)
         for j=1:wd
             //Get the value of the pixel
-            pix = imgsrc(i,j);
+            pix = imgsrc(j,i);
             //Choose which value to assign
             if pix < seuil then
                 //Set to black
-                render(i,j) = 0;
+                render(j,i) = 0;
             else
                 //Set to white
-                render(i,j) = 255;
+                render(j,i) = 255;
             end
         end
     end

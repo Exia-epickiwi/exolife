@@ -1,8 +1,27 @@
 //load image
-
-img=readpbm ("../images/Earth.pbm")
-display_gray(img)
+getd('../scripts/')
 
 //save
-renderPos='../render/'
-writepbm(img, renderPos + 'mawie.pbm')
+imgPos='../images/'
+img=readpbm(imgPos + 'Mars_surface.pbm');
+
+//seuillage
+function r=seuillage(imgsrc,seuil)
+    [wd,he]=size(imgsrc)
+    render=zeros(wd, he)
+    render=imgsrc;
+    for i=1:wd
+        for j=1:he
+            pixel = imgsrc(i,j)
+            if pixel <= seuil then
+                render (i,j)=0;
+            elseif pixel > seuil then
+                render(i,j)=255;
+            end
+        end
+    end
+    display_gray(render)
+endfunction
+
+img=seuillage(img,87)
+end
