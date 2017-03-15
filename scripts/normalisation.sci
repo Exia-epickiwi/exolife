@@ -10,7 +10,6 @@ function render=normalisation(imgsrc)
     // get the maximal value of gray
     clrmax=max(imgsrc);
     
-    
     // for the width of the image
     for i=1:wd
         for j=1:he
