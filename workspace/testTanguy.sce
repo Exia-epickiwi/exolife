@@ -1,17 +1,12 @@
 //Load scripts
-getd('../scripts/')""
+getd('../scripts/')
 
 //Load image
 
-
 imgPos="../images/"
-img=readpbm(imgPos+'Earth.pbm')
+img=readpbm(imgPos+'Gliese 667Cc_surface.pbm')
 
-//Show image
-
-display_gray(img)
-
-// Copy image
-renderPos='../render/'
-writepbm(img,renderPos + 'testTanguy.pbm')
-
+imgnorm=normalisation(img)
+disp(min(imgnorm))
+disp(max(imgnorm))
+display_gray(imgnorm)
