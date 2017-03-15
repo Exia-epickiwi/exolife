@@ -1,5 +1,5 @@
 funcprot(0)
-
+//eaux chaude sur la carte : mission A3
 //load
 getd('../scripts/')
 
@@ -7,9 +7,7 @@ getd('../scripts/')
 imgPos='../images/'
 img=readpbm(imgPos + 'Europa_surface.pbm');
 
-//eaux chaude sur la carte
-
-    
+    //on appelle la fonction seuillage
 display_gray(seuillage(img,165))
 
 
