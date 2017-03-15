@@ -10,6 +10,6 @@ img=readpbm(imgPos + 'Europa_surface.pbm');
 //eaux chaude sur la carte
 
     
-display_gray(seuillage(img,255))
+display_gray(seuillage(img,165))
 
 
