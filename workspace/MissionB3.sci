@@ -7,15 +7,15 @@ renderPos = "render/"   //The folder where the render images will be saved
 //Load image
 imgin = readpbm(imgPos+"HD215497.pbm")
 //Isolate the specific color range to yellow
-yellowimg = colorRange(imgin,198,234)
+coldwimg = normalisation(colorRange(imgin,0,63))
 //Isolate the specific color range to red
-redwimg = colorRange(imgin,235,255)
+mediumlowimg = normalisation(colorRange(imgin,64,126))
 //Isolate the specific color range to blue
-blueimg = colorRange(imgin,103,183)
+mediumhighimg = normalisation(colorRange(imgin,127,189))
 //Isolate the specific color range to green
-greenimg = colorRange(imgin,44,97)
+hotnimg = normalisation(colorRange(imgin,190,255))
 //Save all the images
-writepbm(yellowimg,renderPos+"MissionB3-yellow.pbm")
-writepbm(blueimg,renderPos+"MissionB3-blue.pbm")
-writepbm(redimg,renderPos+"MissionB3-red.pbm")
-writepbm(greenimg,renderPos+"MissionB3-green.pbm")
+writepbm(coldwimg,renderPos+"MissionB3-cold.pbm");
+writepbm(mediumlowimg,renderPos+"MissionB3-medium-low.pbm");
+writepbm(mediumhighimg,renderPos+"MissionB3-medium-high.pbm");
+writepbm(hotnimg,renderPos+"MissionB3-hot.pbm");
