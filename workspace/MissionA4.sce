@@ -12,7 +12,8 @@ imgnze = soustraction(imgin1,imgin2)
 //Substract the noise from the original image
 imgdnze = soustraction(imgin1,imgblr)
 //Apply a blur filter
-filter = [1 1 1;1 1 1;1 1 1]
-imgout = convolution(imgdnze,filter,9)
+//filter = [0 1 0;1 1 1;0 1 0]
+//imgout = convolution(imgdnze,filter,9)
+imgout = median(imgdnze)
 //Save the image
 writepbm(imgout,renderPos+"MissionA4.pbm");
