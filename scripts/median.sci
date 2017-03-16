@@ -1,6 +1,6 @@
 //Apply a median filter to the image
 //imgsrc : the image to apply the filter
-function render=median(imgsrc)
+function render=median(imgsrc,tolerance)
     //The size of the images
     [wd,he]=size(imgsrc);
     //Create an empty image
@@ -20,7 +20,16 @@ function render=median(imgsrc)
                     end
                 end
                 values = gsort(values,"g","i")
-                render(j,i) = values(round(length(values)/2))
+                avg = 0
+                for a=1:length(values)
+                    avg = avg + values(a)
+                end
+                avg = avg / length(values)
+                if imgsrc(j,i) > avg+tolerence | imgsrc(j,i) < (avg-tolerence) then
+                    render(j,i) = values(round(length(values)/2))
+                else
+                    render(j,i) = imgsrc(j,i)
+                end
             end
         end
     end

@@ -10,10 +10,10 @@ imgin2 = readpbm(imgPos+"Jupiter2.pbm")
 //Extract the noise with substraction
 imgnze = soustraction(imgin1,imgin2)
 //Substract the noise from the original image
-imgdnze = soustraction(imgin1,imgblr)
+imgdnze = soustraction(imgin1,imgnze)
 //Apply a blur filter
 //filter = [0 1 0;1 1 1;0 1 0]
 //imgout = convolution(imgdnze,filter,9)
-imgout = median(imgdnze)
+imgout = median(imgdnze,25)
 //Save the image
 writepbm(imgout,renderPos+"MissionA4.pbm");
