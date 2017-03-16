@@ -1,3 +1,4 @@
+//
 funcprot(0)
 //eaux chaude sur la carte : mission A3
 //load
