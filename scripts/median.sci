@@ -25,7 +25,7 @@ function render=median(imgsrc,tolerance)
                     avg = avg + values(a)
                 end
                 avg = avg / length(values)
-                if imgsrc(j,i) > avg+tolerence | imgsrc(j,i) < (avg-tolerence) then
+                if imgsrc(j,i) > avg+tolerance | imgsrc(j,i) < (avg-tolerance) then
                     render(j,i) = values(round(length(values)/2))
                 else
                     render(j,i) = imgsrc(j,i)

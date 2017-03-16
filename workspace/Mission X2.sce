@@ -1,12 +1,81 @@
 getd('../scripts/')
 
-imgT=readpbm('../images/Gliese_581d.pbm')
+img=readpbm('../images/Gliese_581d.pbm')
 
-[wd,he] = size(imgT)
+[wd,he] = size(img)
+maxSize=max(size(img))
+i=1
+taille = 0
+while taille<maxSize
+    taille=2^i
+    i = i + 1
+end
 
-imgF=zeros(wd,he)
-imgF=fft(imgT)
+imgT=zeros(taille,taille)
 
-imgFour=fourierTest(imgF)
+for i=1:wd
+    for j=1:he
+        imgT(i,j)=img(i,j)
+    end
+end
 
-display_gray(imgFour)
+imgFour=fft(imgT)
+
+[wdFour,heFour]=size(imgFour)
+
+rang=25
+// Coin haut gauche
+for i=1:rang
+    for j=1:rang
+        imgFour(i,j)=0
+    end
+end
+
+//Coin haut droit
+for i=wdFour:-1:wdFour-rang
+    for j=1:rang
+        imgFour(i,j)=0
+    end
+end
+
+//Coin bas gauche
+for i=1:rang
+    for j=heFour:-1:heFour-rang
+        imgFour(i,j)=0
+    end
+end
+
+//Coin bas droite
+for i=wdFour:-1:wdFour-rang
+    for j=heFour:-1:heFour-rang
+        imgFour(i,j)=0
+    end
+end
+
+
+
+imgResult=ifft(imgFour)
+
+imgFinal=zeros(wd,he)
+
+for i=1:wd
+    for j=1:he
+        imgFinal(i,j)=real(imgResult(i,j))
+    end
+end
+
+
+subimg=soustraction(img,colorRange(imgFinal,0,100))
+
+display_gray(median(subimg,25))
+
+
+imgReal=real(imgFour)
+imgImag=imag(imgFour)
+
+
+
+
+
+
+
