@@ -4,7 +4,7 @@ getd('../scripts/')
 
 //load image
 imgPos='../images/'
-img=readpbm(imgPos+'Gliese_581d.pbm');
+img=readpbm(imgPos+'Gliese_581d V2.pbm');
 
 
 display_gray(median(img))
