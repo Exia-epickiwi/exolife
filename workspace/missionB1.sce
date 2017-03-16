@@ -4,7 +4,7 @@ getd('../scripts/')
 
 //Load image
 imgPos="../images/"
-img=readpbm(imgPos+'Gliese 667Cc_surface.pbm');
+img=readpbm(imgPos+'Gliese 581d.pbm');
 
 //This is the script to do an equalization on the image
 
@@ -15,7 +15,7 @@ disp(imghist)
 
 // Calcul normalized histogram 
 // but before, calcul of the total number of pixel
-[wd,he]=size(imgsrc)
+[wd,he]=size(img)
 nbpixels = wd*he
 
 imgnormhist=histogrammeNorm(imghist,nbpixels)
