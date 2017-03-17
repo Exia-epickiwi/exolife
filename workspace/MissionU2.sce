@@ -9,4 +9,4 @@ imgin = readpbm(imgPos+"U2_surface.pbm")
 //Apply the filter in Y
 imgout = colorRange(normalisation(contours(imgin)),100,255)
 //Save the image
-writepbm(imgout,renderPos+"MissionU1.pbm");
+writepbm(imgout,renderPos+"MissionU2.pbm");
