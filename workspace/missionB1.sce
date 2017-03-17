@@ -4,14 +4,14 @@ getd('../scripts/')
 
 //Load image
 imgPos="../images/"
-img=readpbm(imgPos+'Gliese 581d.pbm');
+img=readpbm(imgPos+'Gliese 667Cc_surface.pbm');
 
 //This is the script to do an equalization on the image
 
 
 // Calcul of the histogram value (nb of pixel with gray value)
 imghist=histogramme(img);
-disp(imghist)
+//disp(imghist)
 
 // Calcul normalized histogram 
 // but before, calcul of the total number of pixel
@@ -19,12 +19,12 @@ disp(imghist)
 nbpixels = wd*he
 
 imgnormhist=histogrammeNorm(imghist,nbpixels)
-disp(imgnormhist)
+//disp(imgnormhist)
 
 // Calcul of normalised density of probability
 
 imgdensityhist=histogrammeDensity(imgnormhist)
-disp(imgdensityhist)
+//disp(imgdensityhist)
 
 // Creating new image
 render=zeros(wd,he)
@@ -36,5 +36,5 @@ for i=1:wd
         render(i,j)=imgdensityhist((img(i,j)+1))*255
     end
 end
-
+writepbm(render,'Gliese 667Cc_surfaceAFTER.pbm')
 display_gray(render)
