@@ -28,7 +28,7 @@
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{8}{section*.31}
 \contentsline {subsection}{\numberline {3.3}Sous-mission B3}{9}{subsection.3.3}
 \contentsline {paragraph}{Objectifs de la mission}{9}{section*.34}
-\contentsline {paragraph}{Technique utilis\IeC {\'e}e}{9}{section*.35}
+\contentsline {paragraph}{Techniques utilis\IeC {\'e}es}{9}{section*.35}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{9}{section*.36}
 \contentsline {section}{\numberline {4}Mission X}{10}{section.4}
 \contentsline {subsection}{\numberline {4.1}Sous-mission X1}{10}{subsection.4.1}
@@ -42,17 +42,13 @@
 \contentsline {section}{\numberline {5}Mission U}{12}{section.5}
 \contentsline {subsection}{\numberline {5.1}Sous-mission U1}{12}{subsection.5.1}
 \contentsline {paragraph}{Objectifs de la mission}{12}{section*.49}
-\contentsline {paragraph}{Techniques utilis\IeC {\'e}s}{12}{section*.50}
+\contentsline {paragraph}{Techniques utilis\IeC {\'e}es}{12}{section*.50}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{12}{section*.51}
 \contentsline {subsection}{\numberline {5.2}Sous-mission U2}{13}{subsection.5.2}
 \contentsline {paragraph}{Objectifs de la mission}{13}{section*.54}
-\contentsline {paragraph}{Techniques utilis\IeC {\'e}s}{13}{section*.55}
+\contentsline {paragraph}{Techniques utilis\IeC {\'e}es}{13}{section*.55}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{13}{section*.56}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {5}Filtres}{14}{section.5}
-=======
 \contentsline {section}{\numberline {6}Filtres}{14}{section.6}
->>>>>>> 87acb09f4ae4d17b7eea2a421036606b88a1cd2d
 \contentsline {paragraph}{Normalisation}{14}{section*.57}
 \contentsline {paragraph}{Egalisation}{14}{section*.58}
 \contentsline {paragraph}{Seuillage}{14}{section*.59}
@@ -61,18 +57,9 @@
 \contentsline {paragraph}{Fourier}{14}{section*.62}
 \contentsline {paragraph}{Contour}{14}{section*.63}
 \contentsline {paragraph}{Filtre de Sobel}{14}{section*.64}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {6}Algorithmes de traitement}{15}{section.6}
-\contentsline {section}{\numberline {7}Bilan personnels}{15}{section.7}
-\contentsline {paragraph}{\bsc {Saclier} Baptiste}{15}{section*.65}
-\contentsline {paragraph}{\bsc {Chiaverini} Marie}{15}{section*.66}
-\contentsline {paragraph}{\bsc {Blochet} Tanguy}{15}{section*.67}
-\contentsline {section}{\numberline {8}Bilan g\IeC {\'e}n\IeC {\'e}ral}{15}{section.8}
-=======
 \contentsline {section}{\numberline {7}Algorithmes de traitement}{15}{section.7}
 \contentsline {section}{\numberline {8}Bilans personnels}{15}{section.8}
 \contentsline {paragraph}{\bsc {Saclier} Baptiste}{15}{section*.65}
 \contentsline {paragraph}{\bsc {Chiaverini} Marie}{15}{section*.66}
 \contentsline {paragraph}{\bsc {Blochet} Tanguy}{15}{section*.67}
 \contentsline {section}{\numberline {9}Bilan g\IeC {\'e}n\IeC {\'e}ral}{15}{section.9}
->>>>>>> 87acb09f4ae4d17b7eea2a421036606b88a1cd2d
