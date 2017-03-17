@@ -1,63 +1,54 @@
 \select@language {french}
-\contentsline {section}{\numberline {1}Mission A}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}Sous-Mission A1}{3}{subsection.1.1}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Mission A}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Sous-Mission A1}{3}{subsection.2.1}
 \contentsline {paragraph}{Objectifs de la mission}{3}{section*.4}
 \contentsline {paragraph}{Techniques utilis\IeC {\'e}es}{3}{section*.5}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{3}{section*.6}
-\contentsline {subsection}{\numberline {1.2}Sous-mission A2}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {2.2}Sous-mission A2}{4}{subsection.2.2}
 \contentsline {paragraph}{Objectifs de la mission}{4}{section*.9}
 \contentsline {paragraph}{Techniques utilis\IeC {\'e}es}{4}{section*.10}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{4}{section*.11}
-\contentsline {subsection}{\numberline {1.3}Sous-mission A3}{5}{subsection.1.3}
+\contentsline {subsection}{\numberline {2.3}Sous-mission A3}{5}{subsection.2.3}
 \contentsline {paragraph}{Objectifs de la mission}{5}{section*.14}
 \contentsline {paragraph}{Technique utilis\IeC {\'e}e}{5}{section*.15}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{5}{section*.16}
-\contentsline {subsection}{\numberline {1.4}Sous-mission A4}{6}{subsection.1.4}
+\contentsline {subsection}{\numberline {2.4}Sous-mission A4}{6}{subsection.2.4}
 \contentsline {paragraph}{Objectifs de la mission}{6}{section*.19}
 \contentsline {paragraph}{Techniques utilis\IeC {\'e}s}{6}{section*.20}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{6}{section*.21}
-\contentsline {section}{\numberline {2}Mission B}{7}{section.2}
-\contentsline {subsection}{\numberline {2.1}Sous-mission B1}{7}{subsection.2.1}
+\contentsline {section}{\numberline {3}Mission B}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Sous-mission B1}{7}{subsection.3.1}
 \contentsline {paragraph}{Objectifs de la mission}{7}{section*.24}
 \contentsline {paragraph}{Filtre utilis\IeC {\'e}}{7}{section*.25}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{7}{section*.26}
-\contentsline {subsection}{\numberline {2.2}Sous-mission B2}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {3.2}Sous-mission B2}{8}{subsection.3.2}
 \contentsline {paragraph}{Objectifs de la mission}{8}{section*.29}
 \contentsline {paragraph}{Filtre utilis\IeC {\'e}}{8}{section*.30}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{8}{section*.31}
-\contentsline {subsection}{\numberline {2.3}Sous-mission B3}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {3.3}Sous-mission B3}{9}{subsection.3.3}
 \contentsline {paragraph}{Objectifs de la mission}{9}{section*.34}
 \contentsline {paragraph}{Technique utilis\IeC {\'e}e}{9}{section*.35}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{9}{section*.36}
-\contentsline {section}{\numberline {3}Mission X}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}Sous-mission X1}{10}{subsection.3.1}
+\contentsline {section}{\numberline {4}Mission X}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Sous-mission X1}{10}{subsection.4.1}
 \contentsline {paragraph}{Objectifs de la mission}{10}{section*.39}
 \contentsline {paragraph}{Filtre utilis\IeC {\'e}}{10}{section*.40}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{10}{section*.41}
-\contentsline {subsection}{\numberline {3.2}Sous-mission X2}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {4.2}Sous-mission X2}{11}{subsection.4.2}
 \contentsline {paragraph}{Objectifs de la mission}{11}{section*.44}
 \contentsline {paragraph}{Technique utilis\IeC {\'e}e}{11}{section*.45}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{11}{section*.46}
-\contentsline {section}{\numberline {4}Mission U}{12}{section.4}
-\contentsline {subsection}{\numberline {4.1}Sous-mission U1}{12}{subsection.4.1}
+\contentsline {section}{\numberline {5}Mission U}{12}{section.5}
+\contentsline {subsection}{\numberline {5.1}Sous-mission U1}{12}{subsection.5.1}
 \contentsline {paragraph}{Objectifs de la mission}{12}{section*.49}
 \contentsline {paragraph}{Techniques utilis\IeC {\'e}s}{12}{section*.50}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{12}{section*.51}
-\contentsline {subsection}{\numberline {4.2}Sous-mission U2}{13}{subsection.4.2}
+\contentsline {subsection}{\numberline {5.2}Sous-mission U2}{13}{subsection.5.2}
 \contentsline {paragraph}{Objectifs de la mission}{13}{section*.54}
 \contentsline {paragraph}{Techniques utilis\IeC {\'e}s}{13}{section*.55}
 \contentsline {paragraph}{Proc\IeC {\'e}d\IeC {\'e}}{13}{section*.56}
-\contentsline {section}{\numberline {5}Filtres}{14}{section.5}
-<<<<<<< HEAD
-\contentsline {paragraph}{Normalisation}{14}{section*.52}
-\contentsline {paragraph}{Egalisation}{14}{section*.53}
-\contentsline {paragraph}{Seuillage}{14}{section*.54}
-\contentsline {paragraph}{M\IeC {\'e}dian}{14}{section*.55}
-\contentsline {paragraph}{Convolution}{14}{section*.56}
-\contentsline {paragraph}{Fourier}{14}{section*.57}
-\contentsline {paragraph}{Contour}{14}{section*.58}
-\contentsline {paragraph}{Filtre de Sobel}{14}{section*.59}
-=======
+\contentsline {section}{\numberline {6}Filtres}{14}{section.6}
 \contentsline {paragraph}{Normalisation}{14}{section*.57}
 \contentsline {paragraph}{Egalisation}{14}{section*.58}
 \contentsline {paragraph}{Seuillage}{14}{section*.59}
@@ -65,10 +56,10 @@
 \contentsline {paragraph}{Convolution}{14}{section*.61}
 \contentsline {paragraph}{Fourier}{14}{section*.62}
 \contentsline {paragraph}{Contour}{14}{section*.63}
-\contentsline {section}{\numberline {6}Algorithmes de traitement}{15}{section.6}
-\contentsline {section}{\numberline {7}Bilan personnels}{15}{section.7}
-\contentsline {paragraph}{\bsc {Saclier} Baptiste}{15}{section*.64}
-\contentsline {paragraph}{\bsc {Chiaverini} Marie}{15}{section*.65}
-\contentsline {paragraph}{\bsc {Blochet} Tanguy}{15}{section*.66}
-\contentsline {section}{\numberline {8}Bilan g\IeC {\'e}n\IeC {\'e}ral}{15}{section.8}
->>>>>>> 55f349abab649dd6b1f88708da4b6e5e698f86d1
+\contentsline {paragraph}{Filtre de Sobel}{14}{section*.64}
+\contentsline {section}{\numberline {7}Algorithmes de traitement}{15}{section.7}
+\contentsline {section}{\numberline {8}Bilans personnels}{15}{section.8}
+\contentsline {paragraph}{\bsc {Saclier} Baptiste}{15}{section*.65}
+\contentsline {paragraph}{\bsc {Chiaverini} Marie}{15}{section*.66}
+\contentsline {paragraph}{\bsc {Blochet} Tanguy}{15}{section*.67}
+\contentsline {section}{\numberline {9}Bilan g\IeC {\'e}n\IeC {\'e}ral}{15}{section.9}
