@@ -5,12 +5,12 @@
 		\begin{minipage}{0.7\textwidth}
 			\paragraph{Objectifs de la mission}
 
-			Determiner l'emplacement la plus élevé sur l'image en se basant sur le pixel le plus clair. Cet emplacement servira plus tard à l'atterissage d'une mission interplanetaire. On doit donc déterminer les coordonnés du pixel le plus clair de l'image.
+			Determiner l'emplacement la plus élevé sur l'image en se basant sur le pixel le plus clair. Cet emplacement servira plus tard à l'atterissage d'une mission interplanetaire. On doit donc déterminer les coordonnées du pixel le plus clair de l'image.
 		\end{minipage}
 
 		\begin{minipage}{0.3\textwidth}
 			\begin{flushright}
-				\paragraph{Techniques utilisées}
+				\paragraph{Technique utilisée}
 			
 				Analyse pixel à pixel
 			\end{flushright}
@@ -23,4 +23,4 @@
 	\end{figure}
 	\vspace{-0.3cm}
 
-	\paragraph{Procédé}	Apres avoir déterminé la couleur la plus clair de l'image avec la fonction \emph{\texttt{max()}}, nous avons parcourus chacun des pixels pour retenir les coordonnées de la couleur la plus clair. En recupère alors une matrice contenantn les coordonnées de tout les pixels les plus clair. Dans le cas de cette mission, un seul pixel permet l'aterissage est se situe aux coordonnées $x=22$ et $y=38$.
+	\paragraph{Procédé}	Apres avoir déterminé la couleur la plus claire de l'image avec la fonction \emph{\texttt{max()}}, nous avons parcouru chacun des pixels pour retenir les coordonnées de la couleur la plus claire. On recupère alors une matrice contenant les coordonnées de tous les pixels les plus clairs. Dans le cas de cette mission, un seul pixel permet l'atterissage, il se situe aux coordonnées $x=22$ et $y=38$.
