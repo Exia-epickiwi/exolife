@@ -1,7 +1,7 @@
-//Calculate the soustraction from two images
+//Calculate the addition from two images
 //img1 : the first image
 //img2 : the image to add to the first one
-function render=soustraction(img1,img2)
+function render=addition(img1,img2)
     //The size of the images
     [wd,he]=size(img1);
     //Create an empty image
@@ -12,7 +12,7 @@ function render=soustraction(img1,img2)
         for j=1:wd
             pix1 = img1(j,i);
             pix2 = img2(j,i);
-            render(j,i) = max(pix1 - pix2,0);
+            render(j,i) = min(255,pix1 + pix2);
         end
     end
 endfunction
