@@ -16,8 +16,8 @@
 
 	Le seuillage est une méthode de segmentation d'image, à partir d'une image en niveau de gris, le seuillage d'image va créer une image binaire, comportant uniquement deux valeurs noir ou blanc. Par exemple si un seuil est défini à 120 alors la méthode va remplacer chaque pixel qui a une valeur supérieur à 120 par un pixel qui prendra la valeur 255  (blanc) et si la valeur est inférieur à 120 aors il prendra la valeur 0 (noir).
 
-	\paragraph{Median}
-	\label{Median}
+	\paragraph{Médian}
+	\label{Médian}
 
 	C'est un filtre utilisé pour réduire le bruit d'une image. Le principe du filtre est de remplacer chaque pixel par la valeur médiane de son voisinage. Il va considérer les valeurs du voisinage par valeurs croissantes et prendre la valeur médiane, ce qui permet de remplacer des valeurs dites abberantes par une valeur de consensus entre les valeurs voisines. Ce filtre à l'avantage de respecter les contours et le contraste de l'image.
 
@@ -29,7 +29,9 @@
 	\paragraph{Fourier}
 	\label{Fourier}
 
+	Une transformée de Fourier rapide a été utilisée, avec l'algorithme de Cooley-Tukey qui divise l'image afin d'appliquer récursivement la transformation de Fourier.
 
+	\paragraph{Contour}
 	
 	
 
