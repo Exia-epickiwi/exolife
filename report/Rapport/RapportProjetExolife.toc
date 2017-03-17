@@ -55,3 +55,9 @@
 \contentsline {paragraph}{Convolution}{14}{section*.61}
 \contentsline {paragraph}{Fourier}{14}{section*.62}
 \contentsline {paragraph}{Contour}{14}{section*.63}
+\contentsline {section}{\numberline {6}Algorithmes de traitement}{15}{section.6}
+\contentsline {section}{\numberline {7}Bilan personnels}{15}{section.7}
+\contentsline {paragraph}{\bsc {Saclier} Baptiste}{15}{section*.64}
+\contentsline {paragraph}{\bsc {Chiaverini} Marie}{15}{section*.65}
+\contentsline {paragraph}{\bsc {Blochet} Tanguy}{15}{section*.66}
+\contentsline {section}{\numberline {8}Bilan g\IeC {\'e}n\IeC {\'e}ral}{15}{section.8}
