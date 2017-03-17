@@ -21,13 +21,12 @@
 
 Rendre une image de la planète Jupiter plus nette. Pour se faire nous avions à disposition deux photographies faites à quelques secondes d'intervalle comprenant toutes deux du bruit.
 \end{minipage}
-\begin{minipage}{0.2\textwidth}
-\paragraph{Filtres utilisés}
+\begin{minipage}{0.3\textwidth}
+\begin{flushright}
+\paragraph{Téchniques utilisés}
 
-\begin{itemize}
-\item Soustraction
-\item Filtre médiant
-\end{itemize}
+Soustraction \& Filtre médiant
+\end{flushright}
 \end{minipage}
 \end{vwcol} 
 
@@ -39,11 +38,13 @@ Rendre une image de la planète Jupiter plus nette. Pour se faire nous avions à
 	\includegraphics[scale=0.325]{img/JupiterAp.png}
 	Apres
 	\end{multicols}
+	\vspace{-0.9cm}
+	\caption{Résultat de la mission A4}
+	\label{A4}
 \end{figure}
-\vspace{-0.9cm}
 
 \paragraph{Procédé}
 
-Le résultat ci-dessus, nous avons utilisé deux filtes à la suite. Tout d'abort, nous avons \emph{soustrait} les deux images ensembles pour obtenir une troisième image ne comprenant que le bruit. Nous avons alors \emph{soustrait} ce résultat a l'image d'origine. Nous obtenons alors une image de meilleur qualité mais tout de même bruitée. Pour résoudre ce problème nous avons utilisé un \emph{filtre médiant} permettant de retirer le bruit sans altèrer la nettetée de l'image.
+Le résultat ci-dessus, nous avons utilisé deux filtes à la suite. Tout d'abord, nous avons \emph{soustrait} les deux images ensembles pour obtenir une troisième image ne comprenant que le bruit. Nous avons alors \emph{soustrait} ce résultat a l'image d'origine. Nous obtenons alors une image de meilleur qualité mais tout de même bruitée. Pour résoudre ce problème nous avons utilisé un \emph{filtre médiant} permettant de retirer le bruit sans altèrer la nettetée de l'image. Le résultat est donné sur la figure \ref{A4}.
 
 \end{document}
