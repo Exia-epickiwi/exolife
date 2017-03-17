@@ -4,7 +4,7 @@ getd('../scripts/')
 
 //load image
 imgPos='../images/'
+renderPos = "render/"   //The folder where the render images will be saved
 img=readpbm(imgPos+'Gliese_581d V2.pbm');
 
-
-display_gray(median(img))
+writepbm(median(img,15),renderPos+"MissionX2v2.pbm");
