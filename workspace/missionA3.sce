@@ -6,9 +6,11 @@ getd('../scripts/')
 
 //save
 imgPos='../images/'
+renderPos = "render/"   //The folder where the render images will be saved
 img=readpbm(imgPos + 'Europa_surface.pbm');
 
-    //on appelle la fonction seuillage
-display_gray(seuillage(img,165))
+resultat = seuillage(img,250)
+
+writepbm(resultat,renderPos+"MissionA3.pbm");
 
 
