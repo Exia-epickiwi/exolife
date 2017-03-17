@@ -48,6 +48,8 @@
 \contentsline {paragraph}{Normalisation}{14}{section*.52}
 \contentsline {paragraph}{Egalisation}{14}{section*.53}
 \contentsline {paragraph}{Seuillage}{14}{section*.54}
-\contentsline {paragraph}{Median}{14}{section*.55}
+\contentsline {paragraph}{M\IeC {\'e}dian}{14}{section*.55}
 \contentsline {paragraph}{Convolution}{14}{section*.56}
 \contentsline {paragraph}{Fourier}{14}{section*.57}
+\contentsline {paragraph}{Contour}{14}{section*.58}
+\contentsline {paragraph}{Filtre de Sobel}{14}{section*.59}

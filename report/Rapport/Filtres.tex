@@ -29,8 +29,34 @@
 	\paragraph{Fourier}
 	\label{Fourier}
 
-	Une transformée de Fourier rapide a été utilisée, avec l'algorithme de Cooley-Tukey qui divise l'image afin d'appliquer récursivement la transformation de Fourier.
+	Une transformée de Fourier rapide a été utilisée, avec l'algorithme de Cooley-Tukey qui divise l'image afin d'appliquer récursivement la transformation de Fourier sur chaque ligne de la matrice représentant l'image.
 
 	\paragraph{Contour}
 	
-	Un contour est une variation brusque d'intensité, par exemple, lorsque une zone de l'image passe du blanc au noir brusquement.
+	Un contour est une variation brusque d'intensité, par exemple, lorsque une zone de l'image passe du blanc au noir brusquement. Nous avons utilisé le filtre de Sobel pour détecter les contours.
+
+	\paragraph{Filtre de Sobel}
+
+	Ce filtre est un opérateur utilisé pour la détection de contours, il calcule le gradient de l'intensité de chaque pixel ce qui permet de trouver les pixels de changement soudain de luminosité. Cet opérateur utilise des matrices de convolution de taille 3x3.
+
+Cette première matrice correspond au filtre horizontal.
+$
+	\begin{bmatrix}
+		-1 & 0 & 1 \\
+		-2 & 0 & 2 \\
+		-1 & 0 & 1
+	\end{bmatrix}
+$
+
+Cette deuxième matrice correspond au filtre vertical.
+$
+	\begin{bmatrix}
+		-1 & -2 & -1 \\
+		 0 & 0 & 0 \\
+		 1 & 2 & 1
+	\end{bmatrix}
+$
+
+Ensuite les gradients horizontaux et verticaux peuvent être combinés pour obtenir une approximation de la norme du gradient grâce à la formule suivante : 
+
+$G=\sqrt{Gx^2+Gy^2}$
