@@ -66,9 +66,9 @@ end
 
 
 subimg=soustraction(img,colorRange(imgFinal,0,100))
-
-display_gray(median(subimg,25))
-
+imgout=median(subimg,25)
+display_gray(imgout)
+writepbm(imgout,"./render/MissionX2.pbm")
 
 imgReal=real(imgFour)
 imgImag=imag(imgFour)

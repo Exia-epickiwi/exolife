@@ -10,7 +10,6 @@ renderPos = "render/"   //The folder where the render images will be saved
 img=readpbm(imgPos + 'Europa_surface.pbm');
 
 resultat = seuillage(img,250)
-
 writepbm(resultat,renderPos+"MissionA3.pbm");
 
 
